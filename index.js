@@ -2,7 +2,7 @@
 class BugBank {
   constructor() {
     this.BUGBANK_SECRET = null;
-    this.baseURL = "http://localhost:3000";
+    this.baseURL = "https://bugbank.vercel.app/";
   }
 
   setKey(secret) {
